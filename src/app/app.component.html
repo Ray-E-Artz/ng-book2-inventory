@@ -1,9 +1,6 @@
 <div class="inventory-app">
-  <h1>{{ products[0].name }}</h1>
-  <span>{{ products[0].sku }}</span>
-  <!-- SOON
-  <products-list
-    [procutList]="products"
+   <app-products-list
+    [productList]="products"
     (onProductSelected)="productWasSelected($event)">
-  </products-list> -->
+  </app-products-list>
 </div>
